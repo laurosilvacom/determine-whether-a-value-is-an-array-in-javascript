@@ -1,9 +1,7 @@
-import "./styles.css";
+const list1 = typeof ['🧀', '🍤', '🍔', '🥞']
+const list2 = ['🧀', '🍤', '🍔', '🥞']
+const list3 = 'List'
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use Parcel to bundle this sandbox, you can find more info about Parcel
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+console.log(list1)
+console.log(Array.isArray(list2))
+console.log(Array.isArray(list3))
